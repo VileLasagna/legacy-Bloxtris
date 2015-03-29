@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Billboard" Collapsed="true">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEACAAAAAAgAAAIAAAIAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Billboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BBox" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cAAAQABwAAAABgAAEAAAAAgQAAAAAAAAAAAAABAQAAA=</HashCode>
+      <FileName>BoundingBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Brick" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAAAAEAgBAACABAAAAAQQAAAAkAAAAAAAAAAA=</HashCode>
+      <FileName>Brick.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQiAyAAAAAAAgAAIAAAAAAAAACEAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Capsule" Collapsed="true">
+    <Position X="28.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIACAAAAAIAIAAAAAIAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Capsule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionPair" Collapsed="true">
+    <Position X="30.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAgEAAAAAAAAAAAAAAIAAAAQAAAA=</HashCode>
+      <FileName>CollisionSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionSystem" Collapsed="true">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIEAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Colour" Collapsed="true">
+    <Position X="32" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAJIAEAAACAAAAAAoAQABKBEAAwA=</HashCode>
+      <FileName>Colour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConfigLoader" Collapsed="true">
+    <Position X="33.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIAAAACAAAAAAAQAAAABAACAAAAAAAAAABAA=</HashCode>
+      <FileName>ConfigLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DisplayManager" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AERAQAwgAIAEAAoQAAAAAYUAAAJEQEARQBwDkASACAA=</HashCode>
+      <FileName>DisplayManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Err" Collapsed="true">
+    <Position X="26.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAAAAAAAAAAAAAAAAAAAAAhAAAhAAAAAAAAIBAA=</HashCode>
+      <FileName>Err.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventHandler" Collapsed="true">
+    <Position X="5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEQAAAGgAAABAAAAAQAAAAIAAAAQAAgAAACAAAQgA=</HashCode>
+      <FileName>EventHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory&lt;Family, Key&gt;" Collapsed="true">
+    <Position X="28.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAIAAAAQAAAABBAEAAAAAAAAIAAAA=</HashCode>
+      <FileName>Factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager" Collapsed="true">
+    <Position X="30.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BMAAgAAAAEAAAAAgAAAAAQAAAADAAARAAAgAgACBAAA=</HashCode>
+      <FileName>FileManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frustrum" Collapsed="true">
+    <Position X="32" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAQAAAAAAAAAAAAAABAAAAgAAAIAA=</HashCode>
+      <FileName>Frustrum.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="33.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAUIFCCkEAAAQgAAIEAEASEyAAzAAIEEAAAkQQBAECI=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBQQgACAAAAAAgAAAGAAQIAgARANAAJAAAAEBgAAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameState" Collapsed="true">
+    <Position X="5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAABgEAAAIAAAAAAAgAAAAAgAAAAAAAIAA=</HashCode>
+      <FileName>GameState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="glColorEvent" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQBAAAAAAABAgAAAQABAAAAAAAACAEAAQAACAEAAQA=</HashCode>
+      <FileName>glColorEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMesh" Collapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAggAAAAAAQAAgIABAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>GLMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GOScreen" Collapsed="true">
+    <Position X="7.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAAABgYAAAAAAAAAAAAAAAAAgAAAAAAEAAA=</HashCode>
+      <FileName>GOScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grid" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgQAwgAAAICEDggCEACAAAAAgQIAAAAAACAAAEAIAAA=</HashCode>
+      <FileName>Grid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LineSeg" Collapsed="true">
+    <Position X="26.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAAAAAAAAAgAAAAAAAAAAAEAAAAAg4AAggAAAAAA=</HashCode>
+      <FileName>LineSeg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainGS" Collapsed="true">
+    <Position X="2.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgQAAACAAADgIAAAAAAAAAAAAAAAAAgAAAAEAAIAA=</HashCode>
+      <FileName>MainGS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagedFile" Collapsed="true">
+    <Position X="28.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAADAAAAAAAAgAAAAAIAAAAAMAAJEAAAAAAABCIA=</HashCode>
+      <FileName>ManagedFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Material" Collapsed="true">
+    <Position X="30.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAABIAAAAABAAAAMAAAACAAQEBIAAEABAAAA=</HashCode>
+      <FileName>Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix44" Collapsed="true">
+    <Position X="32" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAIAAEAQBAAAYABAAEACAAAAAAAAQAAAAEGAAA=</HashCode>
+      <FileName>Matrix44.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAEAggAAAAAAAAAAAQAAAAAAAAgAAAAAQAA=</HashCode>
+      <FileName>Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelLoader" Collapsed="true">
+    <Position X="33.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GOEvent" Collapsed="true">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAABAAAEAAAAAAAAAAgAAAQAAAA=</HashCode>
+      <FileName>ObjectEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Octree" Collapsed="true">
+    <Position X="11.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAgAAAAAIAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Octree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OctreeLeaf" Collapsed="true">
+    <Position X="12.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAiAAAAAIAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Octree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OctreeComposite" Collapsed="true">
+    <Position X="10.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEiQAAAAIAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Octree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PanAndTiltEvent" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQBAEACAAAAAAAAAAAAAAMAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>PanAndTiltEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Plane" Collapsed="true">
+    <Position X="25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABEIAAAAAAggIIKBCAQgAAgAAABAAQAAIEBFggAAA=</HashCode>
+      <FileName>Plane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quaternion" Collapsed="true">
+    <Position X="26.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAEhgAwAQAAA=</HashCode>
+      <FileName>Quaternion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rect&lt;T&gt;" Collapsed="true">
+    <Position X="18.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAwBACAAAAAgAAAAEAAACAAEAAQABAAgAAAAAA=</HashCode>
+      <FileName>Rect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Score" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYBAAAAAICABggAAAAAAAAAgQEAAAAAAQAAAAACAAA=</HashCode>
+      <FileName>Score.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDLImage" Collapsed="true">
+    <Position X="28.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAgAAAAAgBAAAAAAAQAAEAEAAYACAAAEBwAAAQAAA=</HashCode>
+      <FileName>SDLImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDLRGBAColour" Collapsed="true">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYIAAAAAA=</HashCode>
+      <FileName>SDLRGBAColour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDLRGBColour" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAQCAEAAQA=</HashCode>
+      <FileName>SDLRGBColour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDLTTF" Collapsed="true">
+    <Position X="30.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAgAAAAAgAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SDLTTF.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundFX" Collapsed="true">
+    <Position X="32" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIUgAoARwaQAQiCQgMAAGAVALCIAFAAmAhkAiACI=</HashCode>
+      <FileName>SoundFX.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundManager" Collapsed="true">
+    <Position X="33.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQACGQABAIAMQQgBAVkAAGBIBGAAWgAzFBAESAA=</HashCode>
+      <FileName>SoundManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sphere" Collapsed="true">
+    <Position X="25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAACAAAECAgAAAAQAAAAAAAAAAAAACIAAAAAAAAA=</HashCode>
+      <FileName>Sphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Splash" Collapsed="true">
+    <Position X="5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAIAAABgIAAAAAAAAAAAAAAAAAgAAAAAAEAAA=</HashCode>
+      <FileName>Splash.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringProc" Collapsed="true">
+    <Position X="26.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABACAAAAAAAAIEAAAAIACAAAAAIECIQAAAAAAA=</HashCode>
+      <FileName>StringProc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teapot" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAggAAIAAAAAAEAIAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Teapot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tetrad" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhQAAYAABAAACgAAAAAEAEEAAQABAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Tetrad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="28.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMEAAAAAAAgAAAAAAAAAAAIAAAABAAAAIAAAAAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimedMoveEvent" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQDEAAAAAAAAAAAACAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimedMoveEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimedRemoveEvent" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TimedRemoveEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timeline" Collapsed="true">
+    <Position X="30.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBgAggAAAKBAAAAAAAAAAAAAAAAAAACAAAAIAAAAA=</HashCode>
+      <FileName>Timeline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimelineKey" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAACBAAAAAAAAAAAAAAAAAAAAAAAAEQAAA=</HashCode>
+      <FileName>TimelineKey.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TKAddEvent" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAABAgAAAAQAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>TKAddEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TKDrawTeapot" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>TKDrawTeapot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TKMoveObject" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAABAAACAIAIQAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TKMoveObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TKPlayMusic" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAQAI=</HashCode>
+      <FileName>TKPlayMusic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TKUseObject" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAABAAAAIAAAAAAAAAAIAAAAAAAACUAAA=</HashCode>
+      <FileName>TKUseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tri" Collapsed="true">
+    <Position X="32" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAgAAAAAIAAAAEAAAoAFAAAA=</HashCode>
+      <FileName>Tri.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TTFManager" Collapsed="true">
+    <Position X="33.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAACAAAAAAAAAQAAAABAAABIIAAAAAAAAAA=</HashCode>
+      <FileName>TTFManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vec2&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgCAAAAAAAAAAAAAAAAGBQAAAAAAAAAAAABggAAAYAA=</HashCode>
+      <FileName>Vec2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vec3&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GACAAAAAAAAAAAAAAAAWBQAAAAAAAAAAAABgAQEAYIM=</HashCode>
+      <FileName>Vec3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vec4&lt;T&gt;" Collapsed="true">
+    <Position X="11.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GgCAAAAAAAAAAAAAAAAWhQAAAAAAAAAAAAhgAwAIYAM=</HashCode>
+      <FileName>Vec4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vertex" Collapsed="true">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAAAAAAABBAAAAAhAADgAAAACIAIAQCIACAEAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viewport" Collapsed="true">
+    <Position X="26.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAggAEAAAAAAAAAAAAIAAAAAAAARABAQAAAAA=</HashCode>
+      <FileName>Viewport.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoxelGrid" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VoxelGrid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_GLMnode" Collapsed="true">
+    <Position X="15" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAIBAAA=</HashCode>
+      <FileName>glm.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FontInitialiser" Collapsed="true">
+    <Position X="25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SDLTTF.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ObjStatus" Collapsed="true">
+    <Position X="26.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_GLMmaterial" Collapsed="true">
+    <Position X="7.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAAAAAAAAAAIAAAAAAAIAAAAEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>glm.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_GLMtriangle" Collapsed="true">
+    <Position X="11.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAUBAAA=</HashCode>
+      <FileName>glm.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_GLMtexture" Collapsed="true">
+    <Position X="16.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>glm.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_GLMgroup" Collapsed="true">
+    <Position X="13.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAQAAAAAEAAAAAAAAAAJAAAA=</HashCode>
+      <FileName>glm.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_GLMmodel" Collapsed="true">
+    <Position X="9.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAAAIQAEAAABgAgCAAIRAiAAAQAgAIAIAAAABAAAA=</HashCode>
+      <FileName>glm.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="GLMnode" Collapsed="true">
+    <Position X="15" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glm.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="func" Collapsed="true">
+    <Position X="25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionSystem.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ObjectMap" Collapsed="true">
+    <Position X="26.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLMmaterial" Collapsed="true">
+    <Position X="7.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLMtriangle" Collapsed="true">
+    <Position X="11.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLMtexture" Collapsed="true">
+    <Position X="16.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLMgroup" Collapsed="true">
+    <Position X="13.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLMmodel" Collapsed="true">
+    <Position X="9.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Rectf" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rect.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Recti" Collapsed="true">
+    <Position X="20.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rect.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec2f" Collapsed="true">
+    <Position X="0.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vec2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec2i" Collapsed="true">
+    <Position X="3.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vec2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec2d" Collapsed="true">
+    <Position X="3.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vec2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec3f" Collapsed="true">
+    <Position X="19.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vec3.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec3i" Collapsed="true">
+    <Position X="17.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vec3.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec3d" Collapsed="true">
+    <Position X="17.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vec3.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec4f" Collapsed="true">
+    <Position X="14.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vec4.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec4i" Collapsed="true">
+    <Position X="8.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vec4.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec4d" Collapsed="true">
+    <Position X="11.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vec4.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="FMCODE" Collapsed="true">
+    <Position X="25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GOIT" Collapsed="true">
+    <Position X="26.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Matrix::Matrix" Collapsed="true">
+    <Position X="28.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>DisplayManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
